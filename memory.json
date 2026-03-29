@@ -1,0 +1,9 @@
+[
+    {
+        "timestamp": "2026-03-30T02:20:27.492495",
+        "language": "python",
+        "error_snippet": "ZeroDivisionError: division by zero",
+        "root_cause": "The function does not validate its inputs to prevent division by zero.",
+        "fix": "def divide(a, b): if b == 0: raise ValueError(\"Cannot divide by zero\"); return a / b"
+    }
+]
